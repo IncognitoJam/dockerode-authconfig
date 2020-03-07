@@ -10,7 +10,7 @@ Install: `npm i dockerode-authconfig`
 
 ```js
 var assert = require('assert');
-var normalize = require('.');
+var normalize = require('dockerode-authconfig');
 var orig = {
   auths: {
     'foo.bar.baz': {
